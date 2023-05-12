@@ -9,4 +9,5 @@ func RegisterRouter(r *gin.Engine) {
   applyUser(r)
   applyForm(r)
   applyWelcome(r)
+  applyRedirect(r)
 }
